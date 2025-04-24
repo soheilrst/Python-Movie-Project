@@ -1,19 +1,24 @@
-# Python-Movie-Project
-#seaborn und pandas
+In diesem Projekt führen wir eine grundlegende Datenbereinigung und Analyse mit Pandas und Seaborn durch.
 
-Daten Bereinigung und Analyse :
+## Schritte der Datenverarbeitung:
+### Einlesen der Daten:
+  Die Daten werden zunächst aus einer CSV-Datei in ein DataFrame geladen.
 
-  1) zu aller erst,lesen wir csv daten in eine dataframe ein.
-  2) prüfen wir,ob die columns nan enthalten.
-      wenn ja ,dann füllen wir die nan values mit passende values ein.
-      zb die nan werte von 'rating' column wird mit 'Not rated' eingefüllt.
-  3) verbesserung der columns inhate und Datentype 
+## Umgang mit fehlenden Werten:
+  Wir überprüfen die Spalten auf fehlende Werte (NaN) und füllen diese mit sinnvollen Platzhaltern.
+  Beispiel: Fehlende Werte in der Spalte 'rating' werden mit dem Wert 'Not rated' ersetzt.
 
-Die Fragen dass durch diese project beantwortet sind:
+## Optimierung der Spalteninhalte und Datentypen:
+  Spalteninhalte werden überarbeitet und Datentypen bei Bedarf angepasst, um eine effizientere Analyse zu ermöglichen.
 
-  1) welche movie hat die großte Umsatz gemacht?
+## Fragestellungen, die in diesem Projekt beantwortet werden:
+  Welcher Film hat den höchsten Umsatz erzielt?
 
-  2) wie korrelieren unsere daten mit einander (seaborn heatmap)?
-  
-      die bemerkenswerteste korrelationen liegt zwischen Budget und Umsatz und auch zwischen Umsatz und Bewertung columns 
+## Wie stark korrelieren die verschiedenen Merkmale miteinander?
+  Visualisierung mittels einer Seaborn-Heatmap
+
+## Erkenntnisse:
+  1) Es besteht eine starke Korrelation zwischen Budget und Umsatz,
+
+  2) ebenso zwischen Umsatz und Bewertung.
 
